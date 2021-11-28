@@ -13,6 +13,7 @@
 		1870FB2A2753BD290057C475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1870FB282753BD290057C475 /* Main.storyboard */; };
 		1870FB2C2753BD2A0057C475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1870FB2B2753BD2A0057C475 /* Assets.xcassets */; };
 		1870FB2F2753BD2A0057C475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1870FB2D2753BD2A0057C475 /* LaunchScreen.storyboard */; };
+		1870FB372753C70C0057C475 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870FB362753C70C0057C475 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1870FB2B2753BD2A0057C475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1870FB2E2753BD2A0057C475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1870FB302753BD2A0057C475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1870FB362753C70C0057C475 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1870FB242753BD290057C475 /* SceneDelegate.swift */,
 				1870FB262753BD290057C475 /* ViewController.swift */,
 				1870FB282753BD290057C475 /* Main.storyboard */,
+				1870FB362753C70C0057C475 /* ImageViewController.swift */,
 				1870FB2B2753BD2A0057C475 /* Assets.xcassets */,
 				1870FB2D2753BD2A0057C475 /* LaunchScreen.storyboard */,
 				1870FB302753BD2A0057C475 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				1870FB272753BD290057C475 /* ViewController.swift in Sources */,
 				1870FB232753BD290057C475 /* AppDelegate.swift in Sources */,
+				1870FB372753C70C0057C475 /* ImageViewController.swift in Sources */,
 				1870FB252753BD290057C475 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.LandmarkBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LandmarkBook.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.LandmarkBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LandmarkBook.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
